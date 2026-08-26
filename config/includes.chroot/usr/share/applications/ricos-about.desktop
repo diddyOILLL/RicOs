@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=About RicOS
+Comment=Information about RicOS
+Exec=xfce4-terminal -e ricos-info
+Icon=/usr/share/ricos/ricos-logo.png
+Terminal=false
+Type=Application
+Categories=System;

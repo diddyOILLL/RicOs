@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+echo "        RicOS"
+echo "===================="
+echo
+echo "Version: 0.1.0-dev"
+echo "Base: Debian 13"
+echo "Desktop: XFCE"
+echo
+echo "PRIVACY"
+echo "-------"
+echo "RicOS telemetry: None"
+echo "RicOS analytics: None"
+echo "Mandatory account: No"
+echo
+echo "Network audit:"
+echo "  ricos-net-audit"
+echo
+echo "Privacy first."
