@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "================================"
+echo "       RicOS Network Audit"
+echo "================================"
+echo
+echo "Active network connections:"
+echo "---------------------------"
+ss -tunap
+echo
+echo "Listening ports:"
+echo "---------------------------"
+ss -tulpn
+echo
+echo "Network interfaces:"
+echo "---------------------------"
+ip -brief addr
+echo
+echo "RicOS telemetry:"
+echo "---------------------------"
+echo "No RicOS telemetry services installed."

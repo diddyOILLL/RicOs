@@ -1,0 +1,7 @@
+linux-image-amd64
+systemd-sysv
+sudo
+network-manager
+ca-certificates
+curl
+nano
