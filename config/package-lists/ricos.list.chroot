@@ -5,3 +5,10 @@ network-manager
 ca-certificates
 curl
 nano
+xfce4
+xfce4-goodies
+lightdm
+lightdm-gtk-greeter
+network-manager-gnome
+firefox-esr
+pavucontrol
