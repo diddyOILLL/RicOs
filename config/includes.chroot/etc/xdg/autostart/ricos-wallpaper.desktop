@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=RicOS Wallpaper
+Exec=/usr/local/bin/ricos-set-wallpaper
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

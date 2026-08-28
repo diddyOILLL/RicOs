@@ -1,0 +1,16 @@
+#!/bin/bash
+
+WALLPAPER="/usr/share/backgrounds/ricos/ricos-wallpaper.png"
+
+# XFCE kurz Zeit geben, den Desktop + Monitor anzulegen
+sleep 3
+
+# Jeden von XFCE erkannten Wallpaper-Eintrag setzen
+xfconf-query -c xfce4-desktop -l 2>/dev/null |
+grep '/last-image$' |
+while read -r prop; do
+    xfconf-query -c xfce4-desktop -p "$prop" -s "$WALLPAPER"
+
+    style="${prop%/last-image}/image-style"
+    xfconf-query -c xfce4-desktop -p "$style" -s 5 2>/dev/null || true
+done
